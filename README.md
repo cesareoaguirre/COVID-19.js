@@ -5,10 +5,13 @@ In a near future It will support number of deceases, recovered and suspected cas
 
 
 
-*** It will be good if you install LibreOffice and Excel to Json (You may not need LibreOffice Microsoft Excel it's installed on your system)
+*** It will be good if you install LibreOffice and Excel to Json (You may not need LibreOffice only if Microsoft Excel it's installed on your system)
 
 In terminal, execute:
-> libreoffice --convert-to xlsx timeline-full.ods && excel2json-3 --file timeline-full.xlsx
+> libreoffice --convert-to xlsx timeline-full.ods
+
+Now convert Excel to Json. It will export each Sheet as an independent json file.
+>excel2json-3 --file timeline-full.xlsx
 
 What to to do, then? go to covid-19.js and explore.
 
