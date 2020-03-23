@@ -155,3 +155,43 @@ var world_location_code_names=[{
         "TZ|United Republic of Tanzania": "United Republic of Tanzania",
         "DP|Diamond Princess": "Crucero"
     }];
+var china_location_code_names=[
+	{
+        "\u6e56\u5317|Hubei": "Hubei",
+        "\u5e7f\u4e1c|Guangdong": "Guangdong",
+        "\u6cb3\u5357|Henan": "Henan",
+        "\u6d59\u6c5f|Zhejiang": "Zhejiang",
+        "\u6e56\u5357|Hunan": "Hunan",
+        "\u5b89\u5fbd|Anhui": "Anhui",
+        "\u6c5f\u897f|Jiangxi": "Jiangxi",
+        "\u5c71\u4e1c|Shandong": "Shandong",
+        "\u6c5f\u82cf|Jiangsu": "Jiangsu",
+        "\u91cd\u5e86|Chongqing": "Chongqing",
+        "\u56db\u5ddd|Sichuan": "Sichuan",
+        "\u9ed1\u9f99\u6c5f|Heilongjiang": "Heilongjiang",
+        "\u5317\u4eac|Beijing": "Beijing",
+        "\u4e0a\u6d77|Shanghai": "Shanghai",
+        "\u6cb3\u5317|Hebei": "Hebei",
+        "\u798f\u5efa|Fujian": "Fujian",
+        "\u5e7f\u897f|Guangxi": "Guangxi",
+        "\u9655\u897f|Shaanxi": "Shaanxi",
+        "\u4e91\u5357|Yunnan": "Yunnan",
+        "\u6d77\u5357|Hainan": "Hainan",
+        "\u8d35\u5dde|Guizhou": "Guizhou",
+        "\u5929\u6d25|Tianjin": "Tianjin",
+        "\u5c71\u897f|Shanxi": "Shanxi",
+        "\u8fbd\u5b81|Liaoning": "Liaoning",
+        "\u7518\u8083|Gansu": "Gansu",
+        "\u9999\u6e2f|Hong Kong": "Hong Kong",
+        "\u5409\u6797|Jilin": "Jilin",
+        "\u65b0\u7586|Xinjiang": "Xinjiang",
+        "\u5b81\u590f|Ningxia": "Ningxia",
+        "\u5185\u8499\u53e4|Inner Mongolia": "Mongolia",
+        "TP|Taipei": "Taipei",
+        "\u9752\u6d77|Qinghai": "Qinghai",
+        "\u6fb3\u95e8|Macau": "Macao",
+        "XI|Xizang": "Xizang",
+        "\u897f\u85cf|Tibet": "T\u00edbet",
+        "\u53f0\u6e7e|Taiwan": "Taiwan"
+    }
+			];	

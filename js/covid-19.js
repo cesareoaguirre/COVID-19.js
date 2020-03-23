@@ -24,9 +24,6 @@ var SMADiseaseRecordStruct=function (recordsID, infections, cured, deaths, delta
 	this.log=function (msg){
 		//console.log("SMADiseaseRecordStruct["+recordsID+"] "+msg);
 	}
-	/* location_code_names, 
-	this.location_code_names=location_code_names;
-	*/
 	this.log("SMADiseaseRecordStruct(recordsID: "+recordsID+", infections: "+infections+", delta_infections: "+delta_infections+")");
 	this.recordsID=recordsID; /* example: DZ|Algeria*/
 	this.infections=infections /* int */;
@@ -88,6 +85,7 @@ var SMDiseaseRecordFile=function(recordFileIndex, recordFileData, previousRecord
 				total_infections_delta=total_infections-prev_total_infections;
 				new_infections=Math.max(0, total_infections_delta);
 				//(total_infections>prev_total_infections? total_infections-prev_total_infections:0);
+				/* Lo siento, estoy un poquito cansado y confundido aquí. Mi intención es saber el porcentaje de aumento con respecto de la fecha anterior */
 				increase_ratio=1-prev_total_infections/total_infections;
 				increase_ratio=(isNaN(increase_ratio)? 0: increase_ratio);
 			/*
