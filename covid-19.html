@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta autor="César Aguirre. TT @CesareoAguirre."
+<meta charset="utf-8">
+<title>COVID-19.js</title>
+</head>
+
+<body>
+	<script src="covid-19.js"></script>
+	<script src="covid-19-db.js"></script>
+	<script src="covid-19-locations.js"></script>
+	<script language="javascript">
+		var inited=false;
+		var appCoronavirusMundial=null;
+		function init(){
+			if (inited)return;
+			// console.log("init")
+			var diseaseRecords=new SMDiseaseRecords("World-Records-DB", world_records);
+		}
+		var sceneConstructors=new Array();
+		function prepareAnimations(){
+			var controller = new ScrollMagic.Controller();
+			for (c = 0; c < sceneConstructors.length; c++){
+				sceneConstructors[c](controller, -50);
+			}
+		}
+		document.addEventListener("DOMContentLoaded", function(event) {
+		window.onload = function() {
+			init()
+		  };
+		});
+	</script>
+</body>
+</html>
